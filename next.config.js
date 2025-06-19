@@ -1,12 +1,8 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: "export",
-  basePath: "/plataforma-antecipacao", // nome do seu repositório
-  assetPrefix: "/plataforma-antecipacao/",
-  trailingSlash: true,
-  images: {
-    unoptimized: true
+{
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export"
   }
-};
-
-module.exports = nextConfig;
+}
